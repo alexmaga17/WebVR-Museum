@@ -1,0 +1,457 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        8.0818891525268555,
+        4.1362180709838867,
+        11.715269088745117
+      ],
+      "min": [
+        0.10240983963012695,
+        0.059389114379882812,
+        0.0021990016102790833
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 864,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        0.87901878356933594,
+        0.98402178287506104,
+        0.99514549970626831
+      ],
+      "min": [
+        -0.99953538179397583,
+        -0.92886209487915039,
+        -0.99290287494659424
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        0.95319503545761108,
+        0.99038165807723999,
+        0.97174429893493652,
+        1
+      ],
+      "min": [
+        -0.98427408933639526,
+        -0.98713284730911255,
+        -0.98315638303756714,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 72,
+      "max": [
+        0.95596098899841309,
+        0.95595300197601318
+      ],
+      "min": [
+        0.018799999728798866,
+        0.31205698847770691
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 186,
+      "max": [
+        71
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1728,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        9.4538936614990234,
+        14.620364189147949,
+        14.310114860534668
+      ],
+      "min": [
+        0.038432121276855469,
+        0.8867487907409668,
+        0.001382000744342804
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 788112,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999409914016724,
+        0.99996745586395264,
+        0.99998009204864502
+      ],
+      "min": [
+        -0.9999966025352478,
+        -0.99996864795684814,
+        -0.9998171329498291
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1152,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99999362230300903,
+        0.99999910593032837,
+        0.99999815225601196,
+        1
+      ],
+      "min": [
+        -0.99971812963485718,
+        -0.99999827146530151,
+        -0.99999380111694336,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 576,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.99371498823165894,
+        0.99940502643585205
+      ],
+      "min": [
+        0.0019519999623298645,
+        0.0034000000450760126
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 744,
+      "componentType": 5125,
+      "count": 343590,
+      "max": [
+        65531
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1574496,
+      "componentType": 5126,
+      "count": 13455,
+      "max": [
+        9.4972686767578125,
+        13.871164321899414,
+        2.1983838081359863
+      ],
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1735956,
+      "componentType": 5126,
+      "count": 13455,
+      "max": [
+        0.99985712766647339,
+        0.99974912405014038,
+        0.99998944997787476
+      ],
+      "min": [
+        -0.9999346137046814,
+        -0.99993360042572021,
+        -0.99729001522064209
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1049664,
+      "componentType": 5126,
+      "count": 13455,
+      "max": [
+        0.99999529123306274,
+        0.99999487400054932,
+        0.99993836879730225,
+        1
+      ],
+      "min": [
+        -0.99651932716369629,
+        -0.99999827146530151,
+        -0.99990582466125488,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524832,
+      "componentType": 5126,
+      "count": 13455,
+      "max": [
+        0.98865300416946411,
+        0.99916499853134155
+      ],
+      "min": [
+        0.0022189998999238014,
+        0.0039960001595318317
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1375104,
+      "componentType": 5125,
+      "count": 61800,
+      "max": [
+        13454
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Benjamin Bardou (https://sketchfab.com/meryon)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/e0440050957b41738dccb58c80dd898e",
+      "title": "Méléagre - Louvre Museum (Low Definition)"
+    },
+    "generator": "Sketchfab-3.18.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1622304,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 632472,
+      "byteOffset": 1622304,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1897416,
+      "byteOffset": 2254776,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1264944,
+      "byteOffset": 4152192,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5417136,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/lambert2SG_emissive.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "name": "lambert2SG",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -4.2150330543518066,
+        -7.3603219985961914,
+        -0.096758000552654266,
+        1
+      ],
+      "name": "MELEAGRE.obj.cleaner.gles"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    },
+    {
+      "mesh": 2,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+

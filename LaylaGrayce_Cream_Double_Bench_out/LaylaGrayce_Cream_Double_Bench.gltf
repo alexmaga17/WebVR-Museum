@@ -1,0 +1,416 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.7",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 869744,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 78624,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 81912,
+            "byteOffset": 78624,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 81912,
+            "byteOffset": 160536,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 54608,
+            "byteOffset": 242448,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 54608,
+            "byteOffset": 297056,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 72048,
+            "byteOffset": 351664,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 130080,
+            "byteOffset": 423712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 130080,
+            "byteOffset": 553792,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 86720,
+            "byteOffset": 683872,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 86720,
+            "byteOffset": 770592,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 912,
+            "byteOffset": 857312,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3456,
+            "byteOffset": 858224,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3456,
+            "byteOffset": 861680,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2304,
+            "byteOffset": 865136,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2304,
+            "byteOffset": 867440,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 39312,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 6826,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.647674143314362,
+                -0.218395441770554,
+                0.440054833889008
+            ],
+            "max": [
+                0.647674083709717,
+                0.218395411968231,
+                0.531129539012909
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 6826,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 6826,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 6826,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 36024,
+            "bufferView": 5,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 10840,
+            "bufferView": 6,
+            "byteOffset": 0,
+            "min": [
+                -0.647993624210358,
+                -0.215845882892609,
+                0.00138786307070404
+            ],
+            "max": [
+                0.647993624210358,
+                0.215846091508865,
+                0.440200567245483
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 10840,
+            "bufferView": 7,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 10840,
+            "bufferView": 8,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 10840,
+            "bufferView": 9,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 456,
+            "bufferView": 10,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 288,
+            "bufferView": 11,
+            "byteOffset": 0,
+            "min": [
+                -0.647993505001068,
+                -0.215845748782158,
+                -8.77380330166488e-07
+            ],
+            "max": [
+                0.647993505001068,
+                0.215845927596092,
+                0.00139122002292424
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 288,
+            "bufferView": 12,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 288,
+            "bufferView": 13,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 288,
+            "bufferView": 14,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench_map_5",
+            "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench_map_5",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench_mtl_3",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.70710676908493
+            }
+        },
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench_mtl_1",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.486274570226669,
+                    0.345098048448563,
+                    0.203921601176262,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.70710676908493
+            }
+        },
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench_mtl_2",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.70710676908493
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3,
+                        "TEXCOORD_1": 4
+                    },
+                    "indices": 0
+                },
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6,
+                        "TEXCOORD_0": 8,
+                        "TEXCOORD_1": 9
+                    },
+                    "indices": 5
+                },
+                {
+                    "material": 2,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 12,
+                        "POSITION": 11,
+                        "TEXCOORD_0": 13,
+                        "TEXCOORD_1": 14
+                    },
+                    "indices": 10
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "LaylaGrayce_Cream_Double_Bench",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.70710676908493,
+                -0.0,
+                0.0,
+                0.70710676908493
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ]
+}

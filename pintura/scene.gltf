@@ -1,0 +1,325 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 47861,
+      "max": [
+        18.009754180908203,
+        16.376552581787109,
+        1.6503868103027344
+      ],
+      "min": [
+        -17.011825561523438,
+        -18.602161407470703,
+        -0.066314697265625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 574332,
+      "componentType": 5126,
+      "count": 47861,
+      "max": [
+        0.71128898859024048,
+        0.89670044183731079,
+        0.99999964237213135
+      ],
+      "min": [
+        -0.9492790699005127,
+        -0.98752099275588989,
+        -0.03966955840587616
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 47861,
+      "max": [
+        0.12966232001781464,
+        0.99971663951873779,
+        0.70572608709335327,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99253177642822266,
+        -0.91568243503570557,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 765776,
+      "componentType": 5126,
+      "count": 47861,
+      "max": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "min": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 47861,
+      "max": [
+        0.99470216035842896,
+        0.99451810121536255
+      ],
+      "min": [
+        0.0023277257569134235,
+        0.0020780633203685284
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 273207,
+      "max": [
+        47860
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/e8f121d0545247318781ef3981fdfdaa",
+      "title": "Scene with large deer from the Lascaux Cave"
+    },
+    "generator": "Sketchfab-3.18.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1092828,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 382888,
+      "byteOffset": 1092828,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1148664,
+      "byteOffset": 1475716,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1531552,
+      "byteOffset": 2624380,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4155932,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/07_-_Default_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/07_-_Default_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "07_-_Default",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.90072408540000004
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "obraz2_07 - Default_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        7.173309859354049e-05,
+        29.304285049438477,
+        129.10269165039062,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "obraz2.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        4.3711388619804836e-06,
+        -5.5511151231257827e-15,
+        99.999999999999915,
+        0,
+        99.999999999999915,
+        1.1102230246251565e-14,
+        -4.3711388675315987e-06,
+        0,
+        -1.6653345369377348e-14,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "obraz2"
+    },
+    {
+      "mesh": 0,
+      "name": "obraz2_07 - Default_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.8.3/dist/aframe-extras.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene>
+      <!--
+        Ferramenta de gestão de ativos (imagens, aúdio, vídeo e objectos 3D) 
+        Isto permite pre-carregar os elementos mais pesados e melhorar a perfomance da nossa aplicação
+        -->
+      <a-assets>
+        <img
+          id="madeira"
+          src="seamless_texture_rovere_wood_parquet_DIFFUSE.jpg"
+        />
+        <img id="parede" src="parede.jpg" />
+        <a-asset-item
+          id="frame"
+          src="PIC-FRAME-FBX_out/PIC-FRAME-FBX.gltf"
+        ></a-asset-item>
+        <a-asset-item id="statue" src="Venus_de_Milo.obj"></a-asset-item>
+        <a-asset-item id="pintura" src="pintura/scene.gltf"></a-asset-item>
+        <a-asset-item id="box" src="box/scene.gltf"></a-asset-item>
+        <a-asset-item id="nefer" src="nefertitis/scene.gltf"></a-asset-item>
+        <a-asset-item id="mesa" src="mesa/scene.gltf"></a-asset-item>
+        <a-asset-item id="mona" src="monalisa/scene.gltf"></a-asset-item>
+        <a-asset-item id="porta" src="porta/scene.gltf"></a-asset-item>
+        <a-asset-item id="candeeiro" src="candeeiro/scene.gltf"></a-asset-item>
+        <a-asset-item id="quadro" src="quadro/scene.gltf"></a-asset-item>
+        <a-asset-item id="gato" src="gato/scene.gltf"></a-asset-item>
+        <a-asset-item id="mesa_gato" src="mesa_gato/scene.gltf"></a-asset-item>
+        <a-asset-item
+          id="venus"
+          src="venus_de_milo_statuestexturingchallenge_smk/scene.gltf"
+        ></a-asset-item>
+        <a-asset-item
+          id="bench"
+          src="LaylaGrayce_Cream_Double_Bench_out/LaylaGrayce_Cream_Double_Bench.gltf"
+        ></a-asset-item>
+      </a-assets>
+      <!--Céu-->
+      <a-sky color="#696969"></a-sky>
+      <!--LUZES-->
+      <a-entity
+        light="type: point; color: #ff8800; intensity: 0.3"
+        position="-8.212 3.772 1.651"
+      ></a-entity>
+      <a-entity
+        light="type: point; color: #ff8800; intensity: 0.3"
+        position="6.000 5.110 0"
+      ></a-entity>
+      <!--QUADRO-->
+      <a-entity
+        gltf-model="#frame"
+        position="-2.916 1.740 -0.670"
+        scale="0.25 0.25 0.170"
+      ></a-entity>
+      <a-entity
+        gltf-model="#quadro"
+        position="3.600 1.740 3.870"
+        scale="0.8 0.8 0.8sd"
+        rotation="0 90 0"
+      ></a-entity>
+      <!--BANCO-->
+      <a-entity
+        gltf-model="#bench"
+        position="-2.976 -0.020 -0.544"
+        scale="0.700 0.7 0.7"
+      ></a-entity>
+      <!--ESTÁTUA-->
+      <a-entity
+        gltf-model="#venus"
+        position="0.210 -0.05 -0.556"
+        scale="0.0012 0.0012 0.0012"
+        rotation="0 -19.9 0"
+      ></a-entity>
+      <!--ESCULTURA NEFERTITIS-->
+      <a-entity
+        gltf-model="#nefer"
+        position="-6.710 0.73 -1.360"
+        scale="1.7 1.7 1.7"
+        rotation="0 90 0"
+      ></a-entity>
+      <!--MESA DA ESCULTURA-->
+      <a-entity
+        gltf-model="#mesa"
+        position="-6.725 0.76842 -0.68528"
+        scale="0.009 0.009 0.009"
+      ></a-entity>
+      <!--QUADRO MONA LISA-->
+      <a-entity
+        gltf-model="#mona"
+        position="3.6 1.740 -0.640"
+        scale="0.2 0.2 0.2"
+      ></a-entity>
+      <!--GATO EGIPTO-->
+      <a-entity
+        gltf-model="#gato"
+        position="0.22 1.460 3.560"
+        scale="0.7 0.7 0.7"
+        rotation="0 180 0"
+      ></a-entity>
+      <a-entity
+        gltf-model="#mesa_gato"
+        position="0.21 0.440 3.440"
+        scale="0.04 0.04 0.04"
+        rotation="0 180 0"
+      ></a-entity>
+      <!--PORTAS DA SALA DO MUSEU-->
+      <a-entity
+        gltf-model="#porta"
+        position="-12.250 -0.36 1.59"
+        scale="0.12 0.12 0.12"
+        rotation="0 145.200 0"
+      ></a-entity>
+      <a-entity
+        gltf-model="#porta"
+        position="7.08 -0.36 1.59"
+        scale="0.12 0.12 0.12"
+        rotation="0 327.02 0"
+      ></a-entity>
+      <!--CANDEEIROS NO TETO-->
+      <a-entity
+        gltf-model="#candeeiro"
+        position="1.6597 5.085 1.62578"
+        scale="0.008 0.008 0.008"
+        rotation="0 327.02 0"
+      ></a-entity>
+      <a-entity
+        gltf-model="#candeeiro"
+        position="-8 5.085 1.62578"
+        scale="0.008 0.008 0.008"
+        rotation="0 327.02 0"
+      ></a-entity>
+      <!--CHÃO,PAREDES E TETO DA SALA-->
+      <a-plane
+        rotation="-90 0 0"
+        height="100"
+        width="100"
+        src="#madeira"
+        material="src:#madeira ;repeat: 100 50"
+      >
+      </a-plane>
+      <a-plane
+        position="0 0 -0.735"
+        height="100"
+        width="100"
+        src="#parede"
+        material="src:#parede ;repeat: 100 50"
+      >
+      </a-plane>
+      <a-plane
+        rotation="0 180 0"
+        position="0 0 3.935"
+        height="100"
+        width="100"
+        src="#parede"
+        material="src:#parede ;repeat: 100 50"
+      ></a-plane>
+      <a-plane
+        rotation="0 90 0"
+        position="-12.41 0 0"
+        height="40"
+        width="40"
+        scale="-0.2 2.48 0.16001"
+        src="#parede"
+        material="src:#parede ;repeat: 100 50"
+      ></a-plane>
+      <a-plane
+        rotation="0 90 0"
+        position="7.21 0 0"
+        height="40"
+        width="40"
+        scale="-0.48 1.91 -0.36999"
+        src="#parede"
+        material="src:#parede ;repeat: 100 50"
+      ></a-plane>
+      <a-plane
+        rotation="-90 0 0"
+        position="6 5.11 0"
+        height="40"
+        width="40"
+        scale="-1.01 1.85 -0.57999"
+        src="#parede"
+        material="src:#parede ;repeat: 100 50"
+      ></a-plane>
+      <a-entity
+        gltf-model="#box"
+        position="-6.244 0.562 3.143"
+        scale="0.003 0.003 0.003"
+      ></a-entity>
+      <a-entity
+        gltf-model="#pintura"
+        position="-2.976 2.011 3.869"
+        scale="0.0005 0.0005 0.0005"
+      ></a-entity>
+    </a-scene>
+  </body>
+</html>
